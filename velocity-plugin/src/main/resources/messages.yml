@@ -1,0 +1,30 @@
+general:
+  player_not_found: "<red>Player <gold>%s</gold> was not found!"
+  date_format: "yyyy-MM-dd HH:mm:ss"
+  divider: "<dark_blue>------------------------------------</dark_blue>"
+  cannot_message_self: "<red>You cannot message yourself!"
+friends:
+  # Error messages (red)
+  cannot_add_self: "<red>You cannot add yourself as a friend!"
+  cannot_remove_self: "<red>You cannot remove yourself as a friend!"
+  already_friends: "<red>You are already friends with <gold>%s</gold>!"
+  not_friends: "<red>You are not friends with <gold>%s</gold>!"
+  no_friends: "<red>You have no friends!"
+  request_already_sent: "<red>You have already sent a friend request to <gold>%s</gold>!"
+  empty_list_page: "<red>Page %s is empty!"
+  # Success messages (green)
+  added: "<green>You are now friends with <gold>%s</gold>!"
+  removed: "<green>You have removed <gold>%s</gold> as a friend!"
+  sent_request: "<green>Successfully sent friend request to <gold>%s</gold>!"
+  # Info messages (yellow)
+  list: "<yellow>Friends page %s"
+  list_forward: "<yellow>Friends page %s <gold><click:run_command:'/friend list %s'>»</click></gold>"
+  list_backward: "<yellow>Friends page %s <gold><click:run_command:'/friend list %s'>«</click></gold>"
+  list_bidirectional: "<yellow>Friends page %s <gold><click:run_command:'/friend list %s'>«</click></gold> <dark_gray>|</dark_gray> <gold><click:run_command:'/friend list %s'>»</click></gold>"
+  list_entry: "<yellow>- <gold>%s</gold> <gray>(since %s)</gray> <b><dark_red><click:suggest_command:'/friend remove %s'>Remove</click></dark_red></b> <b><green><click:suggest_command:'/msg %s'>Message</click></green></b>"
+  request_alert: "<yellow>You have a friend request from <gold>%s</gold>!\n<gray><click:suggest_command:'/friend add %s'>Click here to accept or deny the request.</click></gray>"
+  request_to_expired: "<yellow>Your friend request to <gold>%s</gold> has expired!"
+  request_from_expired: "<yellow>Your friend request from <gold>%s</gold> has expired!"
+  # Action messages (gray)
+  add_tooltip: "<gray>Add <gold>%s</gold> to your friends list.</gray>"
+  remove_tooltip: "<gray>Remove <gold>%s</gold> from your friends list.</gray>"

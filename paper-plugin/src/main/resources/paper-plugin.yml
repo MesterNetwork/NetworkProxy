@@ -1,0 +1,15 @@
+name: NetworkPlugin
+version: 'a1.0'
+main: info.mester.network.plugin.NetworkPlugin
+api-version: '1.21'
+load: STARTUP
+authors:
+  - Mester
+description: The server plugin to communicate with the Velocity plugin. Allows functionality that proxy plugins can't do.
+website: https://github.com/MesterNetwork/NetworkProxy
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+      join-classpath: true
+      required: true
